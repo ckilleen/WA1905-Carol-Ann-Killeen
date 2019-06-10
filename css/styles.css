@@ -1,0 +1,72 @@
+/* Stylesheet for Shutterbugg Project for Chapter 5
+   Author: Carol Ann Killeen
+   Date: 5/31/19
+   Filename: styles.css
+*/
+
+.container {
+	max-width: 928px;
+}
+
+.main {
+	height: 550px;
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 90px;
+	text-shadow: tomato 4px 2px 4px;
+	transition: text-shadow 2s;
+}
+
+.main h1:hover {
+	text-shadow: darkred 5px 5px 5px
+}
+
+.main h2 {
+	font-family: 'Sacramento', cursive;
+	margin-bottom: 40px;
+}
+
+.main a {
+	font-size: 24px;
+}
+
+.btn {
+	background-color: tomato;
+	color: white;
+	border-radius: 32px;
+	padding: 10px 40px;
+}
+
+.section .row {
+	padding-top: 50px;
+}
+
+.row h1 {
+	font-family: 'Tangerine', cursive;
+}
+
+.row p {
+	font-family: 'Cookie', cursive;
+	font-size: 36px;
+}
+
+#store {
+	padding: 30px 10px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
